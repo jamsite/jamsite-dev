@@ -17,7 +17,7 @@
   "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
   "license": "MIT",
   "bin": {
-    "jamsite-dev": "bin/jamsite-dev.js"
+    "jamsite": "bin/jamsite.js"
   },
   "dependencies": {
     "@jamsite/jamsite": "^0.0.3",
