@@ -8,6 +8,7 @@ Jamsite-dev - Development version of Jamsite framework.
 
 ## TODO
 
+- simulate micro-dev
 - pluggable asset bundler
 - dev mode custom error page with mini tutorial
 - dev api, e.g. create new page interface from default 404 page
