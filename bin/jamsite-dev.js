@@ -1,12 +1,12 @@
 #!/usr/bin/env node
-const { micro } = require('@jamsite/jamsite')
+const { micro, getRequestHandler } = require('@jamsite/jamsite')
 const bs = require('browser-sync').create()
+const devMiddleware = require('../lib/dev-middleware')
+const JamsitePagesDev = require('../lib/jamsite-pages-dev')
 const config = require('../config')
 
-const {
-  jamsiteDevHandler,
-  jamsite
-} = require('../jamsite-dev-handler')
+const jamsite = new JamsitePagesDev(config)
+const jamsiteDevHandler = devMiddleware(getRequestHandler(jamsite))
 
 bs.init({
   proxy: `localhost:${config.devPort}`,
