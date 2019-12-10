@@ -1,0 +1,46 @@
+{
+  "name": "@jamsite/jamsite-dev",
+  "version": "0.0.1",
+  "description": "Jamsite - JAMstack framework (development mode)",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "standard --verbose *.js **/*.js | snazzy",
+    "test": "npm run lint && nyc ava"
+  },
+  "keywords": [
+    "jamstack"
+  ],
+  "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "jamsite-dev": "bin/jamsite-dev.js"
+  },
+  "dependencies": {
+    "@jamsite/jamsite": "0.0.3",
+    "browser-sync": "^2.26.7",
+    "chalk": "^3.0.0",
+    "pretty-error": "^2.1.1"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "nyc": "^14.1.1",
+    "snazzy": "^8.0.0",
+    "standard": "^14.3.1"
+  },
+  "ava": {
+    "files": [
+      "test/**/*.js"
+    ]
+  },
+  "nyc": {
+    "check-coverage": true,
+    "statements": 100,
+    "branches": 100,
+    "functions": 100,
+    "lines": 100
+  }
+}
