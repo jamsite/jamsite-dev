@@ -414,12 +414,11 @@
       }
     },
     "@jamsite/jamsite": {
-      "version": "0.0.3",
-      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.3.tgz",
-      "integrity": "sha512-B0QR9sc/ImQPU5OCH9dDd+WDUfIaiUWoEKcUNd6lyUVZj+utNAd78s+Pqeky5HTrfjeyLuvLl4hNdJrhI3uvGQ==",
+      "version": "0.0.6",
+      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.6.tgz",
+      "integrity": "sha512-JdfmCtv+C/LwoD+LuiaD6ZmoCg6krE6tQu3+lBPn4BvhAIUNSgvyPF1QTxPLuaBBCGD5mKMhkVvh/2ybxPeKew==",
       "requires": {
         "chokidar": "^3.3.0",
-        "easy-whois": "^1.2.0",
         "fs-router": "^0.5.0",
         "handlebars": "^4.5.3",
         "lodash.get": "^4.4.2",
@@ -1869,11 +1868,6 @@
           "version": "0.1.4",
           "resolved": "https://registry.npmjs.org/duplexer3/-/duplexer3-0.1.4.tgz",
           "integrity": "sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI="
-        },
-        "easy-whois": {
-          "version": "1.2.0",
-          "resolved": "https://registry.npmjs.org/easy-whois/-/easy-whois-1.2.0.tgz",
-          "integrity": "sha512-9YUeJoWbhMxgyBm7Ripd9v57GQn3x/bzWSimIfhbhAbvzAKvrUmp9Q1m/ofJB0krUR+qWVUOqKnvKZpN2ghdQw=="
         },
         "emittery": {
           "version": "0.4.1",
