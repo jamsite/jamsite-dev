@@ -19,6 +19,6 @@ bs.init({
 jamsiteServer(jamsiteDevHandler, {
   port: config.devPort,
   host: config.host
-})
+}).on('close', () => bs.exit())
 
 jamsite.on('update', () => bs.reload())
