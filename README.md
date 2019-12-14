@@ -10,7 +10,7 @@ Execute jamsite in a folder with site template (e.g. https://github.com/jamsite/
 
 `npx jamsite`
 
-Open Browsersync url from output in a browser:
+Open Browsersync url from output in a browser (http://localhost:3000):
 
 ```
 jamsite: Accepting connections on http://127.0.0.1:3030
