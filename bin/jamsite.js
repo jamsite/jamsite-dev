@@ -6,7 +6,7 @@ const autoloadBsMiddleware = require('../lib/autoload-bs-middleware')
 const JamsitePagesDev = require('../lib/jamsite-pages-dev')
 const config = require('../config')
 
-;(async function(){
+;(async function () {
   const bsMiddleware = await autoloadBsMiddleware(config.jamsite)
 
   bs.init({
