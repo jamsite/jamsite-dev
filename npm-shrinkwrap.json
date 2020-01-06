@@ -456,9 +456,9 @@
       "dev": true
     },
     "@jamsite/jamsite": {
-      "version": "0.0.14",
-      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.14.tgz",
-      "integrity": "sha512-wBY+PNH70yNPxqpz+q9JwbXtvPZoL0JUsa3yoAyHXbZ94ksVzVgyu8uwdoziC1KZfqCRr67l4LVjM0X7r64Vug==",
+      "version": "0.0.15",
+      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.15.tgz",
+      "integrity": "sha512-G51lv3BWb2gKBnR1JDRMnqpWXu6ojvyAGyzShJd8IfSqCFbpnsY8/Niq63ZHqnzLVSOPItSq/ZAC8Y8RbZV8AQ==",
       "requires": {
         "chokidar": "^3.3.1",
         "fs-router": "^0.5.0",
@@ -466,7 +466,7 @@
         "lodash.get": "^4.4.2",
         "marked": "^0.8.0",
         "micro": "^9.3.4",
-        "mime-types": "^2.1.25",
+        "mime-types": "^2.1.26",
         "path-to-regexp": "^6.1.0",
         "serve-handler": "^6.1.2",
         "toml": "^3.0.0"
@@ -3666,16 +3666,16 @@
           }
         },
         "mime-db": {
-          "version": "1.42.0",
-          "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.42.0.tgz",
-          "integrity": "sha512-UbfJCR4UAVRNgMpfImz05smAXK7+c+ZntjaA26ANtkXLlOe947Aag5zdIcKQULAiF9Cq4WxBi9jUs5zkA84bYQ=="
+          "version": "1.43.0",
+          "resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.43.0.tgz",
+          "integrity": "sha512-+5dsGEEovYbT8UY9yD7eE4XTc4UwJ1jBYlgaQQF38ENsKR3wj/8q8RFZrF9WIZpB2V1ArTVFUva8sAul1NzRzQ=="
         },
         "mime-types": {
-          "version": "2.1.25",
-          "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.25.tgz",
-          "integrity": "sha512-5KhStqB5xpTAeGqKBAMgwaYMnQik7teQN4IAzC7npDv6kzeU6prfkR67bc87J1kWMPGkoaZSq1npmexMgkmEVg==",
+          "version": "2.1.26",
+          "resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.26.tgz",
+          "integrity": "sha512-01paPWYgLrkqAyrlDorC1uDwl2p3qZT7yl806vW7DvDoxwXi46jsjFbg+WdwotBIk6/MbEhO/dh5aZ5sNj/dWQ==",
           "requires": {
-            "mime-db": "1.42.0"
+            "mime-db": "1.43.0"
           }
         },
         "mimic-fn": {
