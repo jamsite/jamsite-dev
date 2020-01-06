@@ -31,4 +31,3 @@ jamsite: Accepting connections on http://127.0.0.1:3030
 - restart server on api changes
 - dev mode custom error page with mini tutorial
 - dev api, e.g. create new page interface from default 404 page
-- windows support
