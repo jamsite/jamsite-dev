@@ -5,16 +5,16 @@ const devMiddleware = require('../lib/dev-middleware')
 const JamsitePagesDev = require('../lib/jamsite-pages-dev')
 const config = require('../config')
 
-const jamsite = new JamsitePagesDev(config)
+const jamsite = new JamsitePagesDev(config.jamsite)
 const jamsiteDevHandler = devMiddleware(getRequestHandler(jamsite))
 
 bs.init({
-  proxy: `${config.devHost}:${config.devPort}`,
+  proxy: `${config.server.devHost}:${config.server.port}`,
   middleware: false,
   open: false,
   notify: false,
-  port: config.port
+  port: config.server.devPort
 })
 
-micro(jamsiteDevHandler).listen(config.devPort, config.devHost)
+micro(jamsiteDevHandler).listen(config.server.port, config.server.devHost)
 jamsite.on('update', () => bs.reload())
