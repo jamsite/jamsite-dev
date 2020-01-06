@@ -456,9 +456,9 @@
       "dev": true
     },
     "@jamsite/jamsite": {
-      "version": "0.0.13",
-      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.13.tgz",
-      "integrity": "sha512-tiV5yCVEGRLQEZOyKZsZx71Aep/M69gsiRAMTS5bNVbz54GPoE5SK/+SogzMEAZZC1X216tHTf9Gld2nqNrlLg==",
+      "version": "0.0.14",
+      "resolved": "https://registry.npmjs.org/@jamsite/jamsite/-/jamsite-0.0.14.tgz",
+      "integrity": "sha512-wBY+PNH70yNPxqpz+q9JwbXtvPZoL0JUsa3yoAyHXbZ94ksVzVgyu8uwdoziC1KZfqCRr67l4LVjM0X7r64Vug==",
       "requires": {
         "chokidar": "^3.3.1",
         "fs-router": "^0.5.0",
