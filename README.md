@@ -1,4 +1,4 @@
-# Jamsite-dev
+# jamsite-dev
 
 Jamsite-dev - Development version of Jamsite framework.
 
