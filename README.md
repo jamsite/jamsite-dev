@@ -4,16 +4,15 @@ Jamsite-dev - Development version of Jamsite framework.
 
 ## Usage
 
-Jamsite-dev must be installed locally `npm install @jamsite/jamsite-dev` or globally `npm install -g @jamsite/jamsite-dev`.
+Install `jamsite-cli` globally with `npm i -g @jamsite/jamsite-cli`.
 
-Execute jamsite in a folder with site template (e.g. https://github.com/jamsite/brewing-starter-site):
+Execute `jamsite start-dev` in a folder with site template (e.g. https://github.com/jamsite/brewing-starter-site):
 
-`npx jamsite`
+`% jamsite start-dev`
 
 Open Browsersync url from output in a browser (http://localhost:3000):
 
 ```
-jamsite: Accepting connections on http://127.0.0.1:3030
 [Browsersync] Proxying: http://localhost:3030
 [Browsersync] Access URLs:
  --------------------------------------
