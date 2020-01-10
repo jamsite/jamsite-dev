@@ -1,5 +1,14 @@
 const config = require('@jamsite/jamsite/config')
-config.server.devPort = config.server.port
-config.server.port = config.server.port + 1
-config.server.devHost = config.server.host
+
+const devPort = 3030
+config.bs = {
+  proxy: `${config.server.host}:${devPort}`,
+  port: config.server.port,
+  middleware: false,
+  open: false,
+  notify: false
+}
+
+config.server.port = devPort
+
 module.exports = config
