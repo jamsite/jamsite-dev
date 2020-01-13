@@ -1,5 +1,5 @@
 const test = require('ava')
-const renderError = require('../lib/render-error')
+const renderError = require('../../../lib/plugins/load-middleware/render-error')
 
 test('renders error', (t) => {
   const msg = 'error message'
