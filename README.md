@@ -6,7 +6,7 @@ Jamsite-dev - Development version of Jamsite framework.
 
 Install `jamsite-cli` globally with `npm i -g @jamsite/jamsite-cli`.
 
-Execute `jamsite start-dev` in a folder with site template (e.g. https://github.com/jamsite/brewing-starter-site):
+Execute `jamsite start-dev` in a folder with site template (e.g. https://github.com/jamsite/site-starter-hello-world):
 
 `% jamsite start-dev`
 
