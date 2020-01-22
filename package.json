@@ -17,7 +17,7 @@
   "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@jamsite/jamsite": "^0.0.24",
+    "@jamsite/jamsite": "^0.0.25",
     "browser-sync": "^2.26.7",
     "micro": "^9.3.4",
     "micro-visualize": "^3.0.1",
