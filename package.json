@@ -17,17 +17,17 @@
   "author": "Aleksandr Tsertkov <tsertkov@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@jamsite/jamsite": "^0.0.27",
+    "@jamsite/jamsite": "^0.0.28",
     "browser-sync": "^2.26.7",
     "micro": "^9.3.4",
     "micro-visualize": "^3.0.1",
     "pretty-error": "^2.1.1"
   },
   "devDependencies": {
-    "ava": "^3.0.0",
-    "nyc": "^15.0.0",
+    "ava": "^3.8.2",
+    "nyc": "^15.0.1",
     "snazzy": "^8.0.0",
-    "standard": "^14.3.1"
+    "standard": "^14.3.4"
   },
   "ava": {
     "files": [
