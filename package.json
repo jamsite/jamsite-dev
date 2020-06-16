@@ -1,6 +1,6 @@
 {
   "name": "@jamsite/jamsite-dev",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "description": "Jamsite - JAMstack framework (development mode)",
   "main": "./lib",
   "directories": {
